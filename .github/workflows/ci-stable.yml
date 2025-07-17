@@ -24,6 +24,7 @@ jobs:
           rm package-lock.json
           npm install next@latest react@latest react-dom@latest --legacy-peer-deps
           npm install
+          npm list
 
       - name: Run tests
         run: npm test
