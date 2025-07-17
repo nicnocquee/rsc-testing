@@ -21,8 +21,9 @@ jobs:
 
       - name: Install dependencies (stable)
         run: |
+          rm package-lock.json
           npm install next@latest react@latest react-dom@latest --legacy-peer-deps
-          npm install && npm list
+          npm install
 
       - name: Run tests
         run: npm test
