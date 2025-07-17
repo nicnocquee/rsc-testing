@@ -20,6 +20,8 @@ The test file can be found in [greeting.test.tsx](./src/app/greeting.test.tsx).
 npm run test
 ```
 
+So far this hack still works with Next.js 15.4.1 and React 19.1.0.
+
 ## Blog Post
 
 Read the blog post [here](https://nico.fyi/blog/how-to-test-react-server-component).
